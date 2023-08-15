@@ -3,13 +3,16 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  padding-bottom: 15px;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /*animation: App-logo-spin infinite 10s linear;*/
   }
 }
 
@@ -21,6 +24,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px; /* Adjust as needed */
+  font-weight: bold;
+  font-size: 30px;
   color: white;
 }
 
