@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.EnterButton {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin: 10px;
+  cursor: pointer;
+  border: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
