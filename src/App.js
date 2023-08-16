@@ -3,6 +3,7 @@ import reddit from "./Assets/reddit.png";
 import maps from "./Assets/maps.png";
 import cat from "./Assets/cat.png";
 import charge from "./Assets/charge.png";
+import tg from "./Assets/tg.png";
 import "./App.css";
 
 function App() {
@@ -37,6 +38,14 @@ function App() {
                         src={charge}
                         className="link-button"
                         alt="charge"
+                    />
+                </a>
+                <a href="https://youtube.com/redirect?q=https://web.telegram.org/">
+                    <img
+                        src={tg}
+                        className="link-button"
+                        alt="tg"
+                        style={{ height: 120, width: 120 }}
                     />
                 </a>
             </div>
